@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Alata-Regular;
+  src: url("../font/Alata-Regular.ttf");
+}
+.menu-head {
+  font-family: Alata-Regular;
+}
+.main-menu {
+  display: flex;
+  justify-content: center;
+}
+.main-menu > button {
+  border: none;
+}
+.main-menu > button:nth-child(1) {
+  height: 80px;
+  width: 180px;
+  border-radius: 10px 0px 0px 10px;
+}
+.main-menu > button:nth-child(2) {
+  width: 150px;
+}
+.main-menu > button:nth-child(3) {
+  width: 150px;
+}
+.main-menu > button:nth-child(4) {
+  width: 150px;
+}
+.main-menu > button:nth-child(5) {
+  width: 150px;
+}
+.main-menu > button:nth-child(6) {
+  width: 180px;
+  border-radius: 0px 10px 10px 0px;
+}
+.main-menu > button:hover {
+  background-color: #d00000;
+  color: #fff;
+}
+.menu-cad-head {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

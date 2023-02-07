@@ -1,0 +1,291 @@
+#lat
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.two
+{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two >img
+{
+    height: 70%;
+    width: 60%;
+    margin-top: 10%;
+}
+.two1
+{
+    height: 30%;
+    width: 50%;
+}
+.two2
+{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two2 >img
+{
+    height: 70%;
+    width: 60%;
+    margin-top: 10%;
+}
+.two3
+{
+    height: 30%;
+    width: 50%;
+}
+.two4
+{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two4 >img
+{
+    height: 70%;
+    width: 60%;
+    margin-top: 10%;
+}
+.two5
+{
+    height: 30%;
+    width: 50%;
+}
+.two6
+{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two6 >img
+{
+    height: 70%;
+    width: 60%;
+    margin-top: 10%;
+}
+.two7
+{
+    height: 30%;
+    width: 50%;
+}
+.two8
+{
+    height: 30%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two8 >img
+{
+    height: 70%;
+    width: 60%;
+    margin-top: 10%;
+}
+.two9
+{
+    height: 30%;
+    width: 50%;
+}
+#lat div h1
+{
+    width: 50%;
+    padding-top: 17%;
+    font-family: Palanquin-Regular;
+}
+#lat div p
+{
+    width: 50%;
+    padding-top: 3%;
+    font-family: Palanquin-Regular;
+    color:  #999999;
+}
+#lat div button
+{
+    height: 5vh;
+    width: 13%;
+    margin-top: 3%;
+    border-radius: 20px;
+    border: none;
+    background-color: #39ac39;
+    color: white;
+    font-family: Palanquin-Regular;
+}
+#lat div button:hover
+{
+    background-color: white;
+    border: 1px solid #39ac39;
+    color: #39ac39;
+    cursor: pointer;
+
+}
+@media all and (max-width:1025px)
+{
+    #lat div h1
+    {
+        width: 70%;
+        padding-top: 15%;
+        font-family: Palanquin-Regular;
+    }
+    #lat div p
+    {
+        width: 70%;
+        padding-top: 3%;
+        font-family: Palanquin-Regular;
+        color:  #999999;
+    }
+    #lat div button
+    {
+        height: 5vh;
+        width: 13%;
+        margin-top: 3%;
+        border-radius: 20px;
+        border: none;
+        background-color: #39ac39;
+        color: white;
+    }
+
+}
+@media all and (max-width:915px)
+{
+
+    #lat
+    {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .two
+    {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .two >img
+    {
+        height: 80%;
+        width: 70%;
+    }
+    .two1
+    {
+        height: 30%;
+        width: 100%;
+    }
+    .two2
+    {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .two2 >img
+    {
+        height: 80%;
+        width: 70%;
+    }
+    .two3
+    {
+        height: 30%;
+        width: 100%;
+    }
+    .two4
+    {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .two4 >img
+    {
+        height: 80%;
+        width: 70%;
+    }
+    .two5
+    {
+        height: 30%;
+        width: 100%;
+    }
+    .two6
+    {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .two6 >img
+    {
+        height: 80%;
+        width: 70%;
+    }
+    .two7
+    {
+        height: 30%;
+        width: 100%;
+    }
+    .two8
+    {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .two8 >img
+    {
+        height: 80%;
+        width: 70%;
+    }
+    .two9
+    {
+        height: 30%;
+        width: 100%;
+    }
+    #lat div >img
+    {
+        padding-top: 8%;
+    }
+    #lat div h1
+    {
+        width: 70%;
+        padding-top: 15%;
+        font-family: Palanquin-Regular;
+        padding-left: 15%;
+    }
+    #lat div p
+    {
+        width: 70%;
+        padding-top: 3%;
+        font-family: Palanquin-Regular;
+        color:  #999999;
+        padding-left: 15%;
+    }
+    #lat div button
+    {
+        height: 5vh;
+        width: 13%;
+        margin-top: 3%;
+        border-radius: 20px;
+        border: none;
+        background-color: #39ac39;
+        color: white;
+        margin-left: 15%;
+    }
+}

@@ -1,0 +1,132 @@
+#two
+{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    background-color: #eeeee4;
+
+}
+.thr
+{
+    width:50%;
+    display: flex;
+    justify-content: center;
+
+}
+.thr >img
+{
+    height: 100%;
+    width: 60%;
+    padding-left: 20%;
+}
+.thr1
+{
+    width: 50%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.thr1 p
+{
+    width: 70%;
+    margin-top: 2%;
+    font-family: Palanquin-Regular;
+    color: #808080;
+    
+}
+.thr1 h1
+{
+    width: 70%;
+    font-family: Palanquin-Regular;
+    font-size: 2.5rem;
+}
+.thr1 button
+{
+    margin-top: 2%;
+    height: 5vh;
+    width: 11%;
+    border: none;
+    border-radius: 20px;
+    background-color: #39ac39;
+    color: white;
+    font-size: .8rem;
+    font-family: Baloo2-VariableFont_wght;
+}
+.thr1 button:hover
+{
+    background-color: white;
+    color: #39ac39;
+    border: 1px solid #39ac39;
+}
+@media all and (max-width:1025px)
+{
+    .thr1 h1
+    {
+        font-size: 2rem;
+    }
+    .thr1 p
+    {
+        font-size: .8rem;
+    }
+    .thr1 button
+    {
+        font-size: .8rem;
+    }
+}
+@media all and (max-width:415px)
+{
+    #two
+    {
+        display: flex;
+        flex-direction: column;
+        height: 110vh;
+    }
+    .thr >img
+    {
+        height: 100%;
+        width: 200%;
+        padding-left: 100%;
+    }
+    .thr1 p
+    {
+        width: 150%;
+        margin-top: 2%;
+        font-family: Palanquin-Light;
+        color: #808080;
+        font-weight: bold;
+    }
+    .thr1 h1
+    {
+        width: 150%;
+        font-family: Alata-Regular;
+        font-size: 1.5rem;
+    }
+    .thr1 button
+    {
+        margin-top: 4%;
+        height: 4vh;
+        width: 40%;
+        border: none;
+        border-radius: 20px;
+        background-color: #39ac39;
+        color: white;
+        font-size: .9rem;
+        font-family: Baloo2-VariableFont_wght;
+    }
+    .thr1
+    {
+        margin-left: 15%;
+    }
+
+}
+@media all and (max-width:376px)
+{
+    #two
+    {
+        height: 145vh;
+    }
+    .thr1 button
+    {
+        font-size: .6rem;
+        width: 30%;
+    }
+}

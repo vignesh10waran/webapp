@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Alata-Regular;
+  src: url("../font/Alata-Regular.ttf");
+}
+.about-head {
+  font-family: Alata-Regular;
+}
+.about-para {
+  width: 100%;
+  display: flex !important;
+  text-align: justify !important;
+  justify-content: center;
+}
+.about-para-inner {
+  width: 80%;
+  text-align: justify;
+}
+.img-inner {
+  height: 430px;
+  border-radius: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  box-shadow: 1px 1px 5px rgb(3, 7, 30, 0.7);
+}
+
+.cls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

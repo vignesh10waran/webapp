@@ -1,0 +1,284 @@
+#shop2 
+{
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+#shop2 h1
+{
+    margin-top: 20%;
+    text-align: center;
+    font-family: PTSansNarrow-Regular;
+    font-size: 3rem;
+}
+#shop2 h5
+{
+    text-align: center;
+    font-family: VarelRound-Regualar;
+    color: #a6a6a6;
+    font-weight: normal;
+    font-size: 1rem;
+}
+#shop2 header
+{
+    text-align: center;
+    width: 100%;
+}
+.fou1
+{
+    height: 25%;
+    width:18%;
+    border:1px solid #f2f2f2;
+    overflow: hidden;
+    
+}
+.fou1 >img
+{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+.fou1 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.fou2
+{
+    height: 25%;
+    width:18%;
+    border:1px solid #f2f2f2;
+    overflow: hidden;
+}
+.fou2 >img
+{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+
+}
+.fou2 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+.fou3
+{
+    height: 25%;
+    width:18%;
+    border:1px solid #f2f2f2;
+    overflow: hidden;
+}
+.fou3 >img
+{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+.fou3 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+.fou4
+{
+    height: 25%;
+    width:18%;
+    border:1px solid #f2f2f2;
+    overflow: hidden;
+}
+.fou4 >img
+{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+.fou4 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.fou5
+{
+    height: 25%;
+    width:18%;
+    border:1px solid #f2f2f2;
+    overflow: hidden;
+}
+.fou5 >img
+{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+.fou5 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.fou6
+{
+    height: 25%;
+    width:18%;
+    border:.5px solid #f2f2f2;
+    overflow: hidden;
+}
+.fou6 >img
+{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+.fou6 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.fou7
+{
+    height: 25%;
+    width:18%;
+    border:.5px solid #f2f2f2;
+    overflow: hidden;
+
+}
+.fou7 >img
+{
+    height: 70%;
+    width: 100%;
+    
+}
+.fou7 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.fou8
+{
+    height: 25%;
+    width:18%;
+    border:.5px solid #f2f2f2;
+    overflow: hidden;
+
+}
+.fou8 >img
+{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+.fou8 h6
+{
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: normal;
+}
+#shop2 div h4
+{
+    font-family: Quicksand;
+    font-weight: normal;
+    text-align: center;
+    font-size: .8rem;
+    color: #39ac39;
+}
+#shop2 div
+{
+    margin-right: 2%;
+}
+#shop2 div >img:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.8s;
+}
+@media all and (max-width:1025px)
+{
+    #shop2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+    }
+    #shop2 header
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+    #shop2 div
+    {
+        margin-right: 0%;
+        max-width: 100%;
+        margin-top: 5%;
+    }
+    .fou1
+    {
+        height: 30%;
+        width: 50%;
+    }
+    .fou1
+    {
+        height: 20%;
+        width: 50%;
+    }
+    .fou2
+    {
+        height: 20%;
+        width: 50%;
+    }
+    .fou3
+    {
+        height: 20%;
+        width: 50%;
+        
+    }
+    .fou4
+    {
+        height: 20%;
+        width: 50%;
+    }
+    .fou5
+    {
+        height: 20%;
+        width: 50%;
+    }
+    .fou6
+    {
+        height: 20%;
+        width: 50%;
+    }
+    .fou7
+    {
+        height: 20%;
+        width: 50%;
+    }
+    .fou8
+    {
+        height: 20%;
+        width: 50%;
+    }
+}

@@ -1,0 +1,206 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+   padding: 0px;
+   margin: 0px;
+}
+@font-face
+{
+    src: url(./font/Palanquin-Regular.ttf);
+    font-family: Palanquin-Regular;
+}
+@font-face
+{
+    src: url(./font/Palanquin-Light.ttf);
+    font-family: Palanquin-Light;
+}
+@font-face
+{
+   src: url(./font/ConcertOne-Regular.ttf);
+   font-family: ConcertOne-Regular;
+}
+@font-face
+{
+    src: url(./font/Baloo2-VariableFont_wght.ttf);
+    font-family: Baloo2-VariableFont_wght;
+}
+@font-face
+{
+    src: url(./font/Kalam-Regular.ttf);
+    font-family: Kalam-Regular;
+}
+@font-face
+{
+    src: url(./font/AmaticSC-Regular.ttf);
+    font-family: AmaticSC-Regular;
+}
+@font-face
+{
+    src: url(./font/PTSansNarrow-Regular.ttf);
+    font-family: PTSansNarrow-Regular;
+}
+@font-face
+{
+    src: url(./font/Quicksand.ttf);
+    font-family: Quicksand;
+}
+@font-face
+{
+    src: url(./font/VarelaRound-Regular.ttf);
+    font-family: VarelRound-Regualar;
+}
+@font-face
+{
+    src: url(./font/BebasNeue-Regular.ttf);
+    font-family:BebasNeue-Regular;
+}
+@font-face
+{
+    src: url(./font/Alata-Regular.ttf);
+    font-family: Alata-Regular;
+}
+body
+{
+    max-width: 100%;  
+}
+nav
+{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    background-color:white;
+    position: fixed;
+    z-index: 1;
+}
+nav label
+{   
+    width: 25%;
+}
+nav h1
+{
+    text-align: center;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    font-size:1.6rem;
+    font-family: ConcertOne-Regular;
+    color: #39ac39;
+}
+nav ul 
+{
+    display: flex;
+    width:75%;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+}
+nav ul li a
+{
+    text-decoration: none;
+    padding-right: 30px;
+    font-family: Baloo2-VariableFont_wght;
+    color: black;
+    font-size: .9rem;
+    max-width: 100%;
+}
+.one
+{
+    background-image: url("./image/vegfood4.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    max-width: 100%;
+    background-size: 100% 100%;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    position: static;
+
+}
+#one1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 43%;
+}
+
+#one1 h1
+{
+    font-family: PTSansNarrow-Regular;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px #eeeee4;
+    font-weight: normal;
+    
+}
+
+@media  all and (max-width:1025px)
+{
+ nav
+ {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    height: 43vh;
+    max-width: 100%;
+    position: static;
+ } 
+nav label
+{
+    width: 100%;
+    
+}
+nav h1
+{
+    padding-top: 5px;
+}
+nav ul
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav ul li
+{
+    padding-top: 20px;
+}
+#one1 h1
+{
+    font-size: 3.8rem;
+    padding-top: 30%;
+    padding-left: 20%;
+}
+.one
+{
+    background-image: url("./image/vegfood3.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+}
+
+}
+@media all and (max-width:415px)
+{
+    .one
+    {
+        background-image: url("./image/vegfood5.jpg");
+        background-repeat: no-repeat;
+        display: flex;
+        background-size: 100% 100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 100%;
+    }
+    #one1 h1
+    {
+        font-size: 3rem;
+        margin-left: -60%;
+    }
+}

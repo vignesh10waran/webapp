@@ -1,0 +1,110 @@
+#buttom
+{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+#buttom ul li
+{
+    list-style: none;
+}
+.fix
+{
+    width: 35%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.fix  p
+{
+    margin-top: 9%;
+    padding-right: 3%;
+}
+.fix p >img
+{
+    padding-right: 3%;
+}
+.fix h1
+{
+    font-family: Palanquin-Light;
+    margin-top: 6%;
+}
+.fix ul li
+{
+    font-family: Quicksand;
+}
+.fix1
+{
+    width: 20%;
+    text-align: center;
+    text-align: left;
+    padding-bottom: 0%;
+}
+.fix1 h1
+{
+    font-family: Palanquin-Light;
+}
+.fix1 ul li
+{
+    font-family: Quicksand;
+    padding-top: 6%;
+}
+.fix2
+{
+    width: 20%;
+    text-align: center;
+    text-align: left;
+    padding-bottom: 0%;
+}
+.fix2 h1
+{
+    font-family: Palanquin-Light;
+}
+.fix2 ul li
+{
+    font-family: Quicksand;
+    padding-top: 6%;
+}
+.fix3
+{
+    width: 25%;
+    text-align: center;
+    text-align: left;
+    padding-bottom: 1%;
+}
+.fix3 h1
+{
+    font-family: Palanquin-Light;
+}
+.fix3 ul li
+{
+    font-family: Quicksand;
+    padding-top: 2%;
+}
+.fix4
+{
+    margin-top: 5%;
+}
+@media all and (max-width:824px)
+{
+    #buttom
+    {
+        display: flex;
+        flex-direction: column;
+        height: 150vh;
+        max-width: 100%;
+    }
+    #buttom div
+    {
+        margin-top: 10%;
+    }
+}
+@media all and (max-width:376px)
+{
+    #buttom
+    {
+        height: 180vh;
+    }
+}
